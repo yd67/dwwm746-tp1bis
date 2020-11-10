@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
+
+body {
+    /* background-image: url('https://cdn.wf3.fr/wp-content/uploads/2019/11/formation-Technicien-Syst%C3%A8mes-R%C3%A9seaux-_Cybers%C3%A9curit%C3%A9-768x512.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll; */
+
+    /* background: url('../img/full.jpg') center center no-repeat; */
+
+}
+
+.vert { 
+    color: green; 
+    font-style: italic;
+}
+
+.centre { 
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    color: #555;
+    font-size: 24px;
+    background-color: #e00;
+}
+
+h2 {
+    color: #888;
+    font-size: 20px;
+    /* taille, type, couleur */
+    /* border-top: 1px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 15px solid #000; */
+
+    /* border: 1px solid #000; */
+    /* border-right: none; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+
+    width: 50%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.paragraphe {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#p1 .vert { color: #0d0;}
